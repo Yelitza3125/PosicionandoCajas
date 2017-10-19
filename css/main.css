@@ -1,0 +1,73 @@
+/*Con el selector universal, todos los contenedores ahora pueden modificarse*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*Mediante el selector de clase, aquel elemento que tiene el valor de clase "red", se determina su ancho y alto con la misma medida, ya que es cuadrado.*/
+
+.red {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*Mediante el selector de clase, aquel elemento que tiene el valor de clase "purple"; pero que este contenido dentro de un elemento div. Se determina su ancho y alto con la misma medida, ya que es cuadrado. Se aplica el margin derecho e izquierdo en auto, para centrar la figura. Luego mediante la propiedad position, este es desplazado*/
+
+div .purple {
+    background-color: hsl(287, 72%, 30%);
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 70px;
+}
+
+
+/*Mediante el selector de clase, aquel elemento que tiene el valor de clase "yellow"; pero que este contenido dentro de un elemento div. Se determina su ancho y alto con la misma medida, ya que es cuadrado. Luego mediante la propiedad position, este es desplazado*/
+
+div .yellow {
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: 80px;
+    left: 75px;
+}
+
+
+/*Mediante el selector de clase, aquel elemento que tiene el valor de clase "blue", se determina su ancho y alto con la misma medida, ya que es cuadrado. Luego mediante la propiedad margin, se separa del primer cuadro rojo*/
+
+.blue {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+/*Mediante el selector de clase, aquel elemento que tiene el valor de clase "green"; pero que este contenido dentro de un elemento div. Se determina su ancho y alto con la misma medida, ya que es cuadrado. Se aplica el margin derecho e izquierdo en auto, para centrar la figura.Luego mediante la propiedad position relative, este es desplazado*/
+
+div .green {
+    background-color: rgb(22, 131, 22);
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 75px;
+}
+
+
+/*Mediante el selector de clase, aquel elemento que tiene el valor de clase "black"; pero que este contenido dentro de un elemento div. Se determina su ancho y alto con la misma medida, ya que es cuadrado.Luego mediante la propiedad position a relative, este es desplazado hacia arriba*/
+
+div .black {
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: 150px;
+}
